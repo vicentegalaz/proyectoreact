@@ -1,0 +1,41 @@
+/* Header.css */
+/* Header.css */
+
+.nav {
+  background-color: #4d4a4a; /* Color azul claro */
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+.link {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.link:hover {
+  color: #555;
+}
+
+/* Estilos para el enlace "Usuarios VIP" */
+.link-vip {
+  color: #f57c00; /* Color naranja */
+}
+
+.link-vip:hover {
+  color: #ff9800; /* Color naranja más claro al pasar el cursor */
+}
+
+/* Estilos para el enlace "Ubicación" */
+.link-ubicacion {
+  color: #039be5; /* Color azul */
+}
+
+.link-ubicacion:hover {
+  color: #2196f3; /* Color azul más claro al pasar el cursor */
+}
