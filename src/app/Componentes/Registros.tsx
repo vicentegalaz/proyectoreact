@@ -44,7 +44,7 @@ export const Registros = () => {
             <th>Telefono</th>
             <th>Fecha</th>
             <th>Genero</th>
-            <th>Aceptar terminos y condiciones</th>
+            <th>Terminos</th>
             <th>Editar</th>
             <th>Eliminar</th>
         </tr>
