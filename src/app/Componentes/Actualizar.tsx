@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router-dom'
 import { Persona } from '../Interfaces/IFormulario'
-import { actualizarPersona, obtenerPersona, eliminarPersona } from '../Firebase/Promesas';
+import { actualizarPersona, obtenerPersona,} from '../Firebase/Promesas';
 import { Console } from 'console';
 
 export const Actualizar = () => {
@@ -102,7 +102,7 @@ export const Actualizar = () => {
           
         <label>Contraseña: </label><br/>
         <input type="password"
-          onChange={(e)=>setEdad(e.target.value)}
+          onChange={(e)=>setContrasena(e.target.value)}
           value={Contrasena}
           /><br/>     
         <label>Edad: </label><br/>
@@ -112,26 +112,25 @@ export const Actualizar = () => {
           /><br/>
         <label>Telefono: </label><br/>
         <input type="tel"
-          onChange={(e)=>setEdad(e.target.value)}
+          onChange={(e)=>setTelefono(e.target.value)}
           value={Telefono}
           /><br/>
         <label>Fecha: </label><br/>
         <input type="date"
-          onChange={(e)=>setEdad(e.target.value)}
+          onChange={(e)=>setFecha(e.target.value)}
           value={Fecha}
           /><br/>
         <label>Genero: </label><br/>
         <input type="radio"
-          onChange={(e)=>setEdad(e.target.value)}
+          onChange={(e)=>setGenero(e.target.value)}
           value={Genero}
           /><br/>
-        <label>Aceptar: </label><br/>
+        <label>Aceptar terminos y condiciones: </label><br/>
         <input type="checkbox"
-          onChange={(e)=>setEdad(e.target.value)}
+          onChange={(e)=>setAceptar(e.target.value)}
           value={Aceptar}
           /><br/>
         <button type='button' onClick={actualizar}>Actualizar</button>
     </form>
   )
 }
-

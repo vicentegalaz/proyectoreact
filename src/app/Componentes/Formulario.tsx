@@ -91,7 +91,7 @@ const [idPersona,setIdPersona] = useState("")
           onChange={(e)=>setFecha(e.target.value)}
           value={Fecha}
           /><br/>
-        <label>Aceptar notificaciones de ofertas: </label><br/>
+        <label>Genero: </label><br/>
         <input type="radio"
           onChange={(e)=>setGenero(e.target.value)}
           value={Genero}

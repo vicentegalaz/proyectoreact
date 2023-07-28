@@ -117,7 +117,7 @@ export const Eliminar = () => {
         <input type="radio"
           value={Genero}
           /><br/>
-        <label>Aceptar: </label><br/>
+        <label>Aceptar terminos y condiciones: </label><br/>
         <input type="checkbox"
           value={Aceptar}
           /><br/>
